@@ -18,7 +18,7 @@ using OrderId = std::uint64_t; //64-bit for possibly large Order-id
 //supporting two types of orders
 enum class OrderType {
   GoodTillCancel,
-  FindAndKill
+  FillAndKill
 };
 
 //buy side-> bids; sell side -> asks
